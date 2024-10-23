@@ -40,7 +40,7 @@ docker ps
 docker-compose exec kafka kafka-topics --create --topic your-topic-name --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 docker-compose exec kafka kafka-console-producer --topic your-topic-name --bootstrap-server localhost:9092
 docker-compose exec kafka kafka-console-consumer --topic your-topic-name --from-beginning --bootstrap-server localhost:9092
-```bash
+```
 
 ### 5. Stop Kafka
 ```bash
