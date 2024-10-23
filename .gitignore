@@ -1,0 +1,3 @@
+broker/data/*
+zoo/data/*
+zoo/log/*
