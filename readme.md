@@ -30,8 +30,8 @@ cd kafka-docker
 ```bash
 docker-compose up -d
 ```
-### 3.bash Check docker containers
-```
+### 3. Check docker containers
+```bash
 docker ps
 ```
 ### 4. Create Topics / Produce / Consume Messages
